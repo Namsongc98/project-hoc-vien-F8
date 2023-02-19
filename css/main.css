@@ -1,0 +1,142 @@
+.app {
+  max-width: 1440px;
+  height: 100%;
+}
+.header {
+  height: 80px;
+  display: flex;
+  padding: 15px 24px;
+  justify-content: space-between;
+}
+.header-left {
+  display: flex;
+  justify-content: space-between;
+}
+.header-img {
+  width: 55px;
+  height: 50px;
+}
+.header-label {
+  display: flex;
+}
+.header-label__name {
+  color: #00833e;
+  margin-left: 7px;
+  text-align: center;
+  line-height: 50px;
+}
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+  width: 400px;
+}
+.header-iteam {
+  list-style: none;
+  line-height: 50px;
+}
+.header-iteam__link {
+  text-decoration: none;
+  color: black;
+}
+.header-right {
+  display: flex;
+  justify-content: space-between;
+  width: 478px;
+  position: relative;
+}
+.header-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+
+  background-color: #f3f3f4;
+}
+.header-search__img {
+  margin-right: 8px;
+}
+.header-input {
+  border-style: none;
+  width: 150px;
+  background-color: #f3f3f4;
+}
+.header-bell {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: #f1f2f4;
+  border-radius: 50%;
+}
+.header-bell__number {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.header-accout {
+  display: flex;
+}
+.header-accout__img {
+  width: 40px;
+  height: 40px;
+}
+.header-accout__info {
+  margin-left: 20px;
+}
+.header-accout__info-name {
+  color: #00833e;
+}
+.header-accout__info-info {
+  display: flex;
+}
+.header-accout__info-img {
+  width: 10px;
+  height: 5.5px;
+  margin-left: 4px;
+  margin-top: 5px;
+}
+
+.container {
+  width: 100%;
+  border-top: 1px solid #f3f3f4;
+  display: flex;
+}
+.congtainer-left {
+  width: 20%;
+  border-right: 1px solid #f3f3f4;
+}
+.nav-heading {
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  border-bottom: 1px solid #f3f3f4;
+  height: 50px;
+}
+.nav-heading__img {
+  padding-right: 7px;
+  width: 16px;
+  height: 10;
+}
+.nav-heading__title {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
+.nav-container {
+  padding: 26px;
+}
+.nav-heading__list {
+  padding-top: 8px;
+}
+.nav-heading__iteam-link {
+  line-height: 38px;
+  text-decoration: none;
+}
+.nav-heading__iteam {
+  list-style: none;
+}
+.container-right {
+  padding: 20px 30px;
+}
