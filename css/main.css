@@ -62,6 +62,7 @@
   border-style: none;
   width: 150px;
   background-color: #f3f3f4;
+  outline: none;
 }
 .header-bell {
   position: relative;
@@ -139,4 +140,224 @@
 }
 .container-right {
   padding: 20px 30px;
+}
+.course {
+  height: 72px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  width: 1029px;
+}
+.course-iteam {
+  width: 141px;
+  height: 72px;
+  border: 1px solid #e0e7ed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.course-iteam__text {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 8px;
+  color: #8a9aaf;
+}
+.course-iteam__text-cours {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 8px;
+  color: #007aff;
+}
+.course-iteam__img {
+  color: #8a9aaf;
+}
+.course-iteam__tick {
+}
+.evaluate-link {
+  display: flex;
+  margin-top: 47px;
+  /* justify-content: flex-start; */
+}
+.link-evaluate {
+  border-radius: 8px;
+}
+
+.link-evaluate__title {
+  font-weight: 500;
+  font-size: 13px;
+}
+.link-evaluate__wapper {
+  display: flex;
+  margin-top: 9px;
+  width: 337px;
+  height: 40px;
+
+  line-height: 14.5px;
+  font-size: 14px;
+}
+.link-evaluate__left {
+  display: flex;
+  width: 233px;
+  border: 1px solid #d2d2d2;
+  border-radius: 8px 0 0 8px;
+  text-align: center;
+  outline: none;
+}
+.link-evaluate__inside {
+  width: 104px;
+  display: flex;
+  color: #8A9AAF;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8A9AAF;
+  border-radius: 0 8px 8px 0;
+}
+.course-iteam__star:hover {
+  width: 141px;
+  height: 72px;
+  border: 1px solid #007aff;
+  color: #007aff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: #d6e8fa;
+  position: relative;
+}
+.course-iteam__tick {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
+.link-evaluate__img {
+  margin-right: 8px;
+}
+.link-text {
+  color: #007aff;
+}
+.evaluate-QR {
+  margin-left: 30px;
+  border-radius: 0 8px 8px 0;
+}
+.evaluate-QR-img {
+  margin-top: 8px;
+}
+.evaluate-QR-title {
+  font-weight: 500;
+  font-size: 13px;
+}
+.information-title {
+  margin-top: 4px;
+  margin-top: 22px;
+}
+.teacher-container {
+  margin-top: 24px;
+  width: 1118;
+  height: 80px;
+  background-color: #fffef4;
+  border-radius: 8px;
+  display: flex;
+
+  align-items: center;
+  margin-top: 24px;
+  /* padding: 21px; */
+}
+.tearch-center {
+  list-style: none;
+  display: flex;
+}
+.teacher-table {
+  margin-left: 30px;
+  height: 50px;
+
+  font-weight: 400;
+  font-size: 13px;
+}
+.teacher-table__head,
+.teacher-table__data {
+  padding: 0 20px;
+}
+.teacher-table__head {
+}
+.teacher-table__data {
+  color: #0ea456;
+}
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 0;
+}
+
+.teacher-table__row {
+  line-height: 20px;
+}
+.teacher-right {
+  display: flex;
+  margin-left: 19px;
+  align-items: center;
+}
+
+.teacher-table__data-nps {
+  margin-right: 20px;
+}
+.teacher-left__button {
+  width: 152px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: #10a456;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+}
+.teacher-right__text {
+  margin-left: 12px;
+  text-decoration: none;
+  color: white;
+}
+
+.list-haeder__right {
+  display: flex;
+  /* justify-content: center; */
+}
+.list-haeder__right-text {
+  font-size: 14px;
+  color: #879bb4;
+  line-height: 200%;
+}
+.list-laeder__right-turnLeft {
+  margin-right: 5px;
+  margin-left: 30px;
+}
+
+.list-table__row-head {
+  background-color: #f5faff;
+  height: 40px;
+}
+.list-table__container {
+  width: 1118px;
+  height: 450px;
+  border-radius: 8px;
+  border: 1px solid #d7e8ff;
+}
+.list-table__data {
+  font: 14px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.list-table__row-head {
+  border: 1px solid #d7e8ff;
+}
+.list-table__wapper {
+  width: 840px;
+}
+.list-table__data {
+  text-align: center;
+}
+.list-table__head {
 }

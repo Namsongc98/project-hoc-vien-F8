@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/img/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
-    <title>Học Viện F8</title>
+    <title>Trường tự học</title>
   </head>
+
   <body>
     <div class="app">
       <header class="header">
         <div class="header-left">
           <div class="header-label">
             <img src="./css/img/logo-f8.svg" alt="" class="header-img" />
-            <h4 class="header-label__name">HỌC VIỆN F8</h4>
+            <h4 class="header-label__name">Trường tự học</h4>
           </div>
           <ul class="header-list">
             <li class="header-iteam">
@@ -39,10 +41,12 @@
             <input type="search" placeholder="Tìm kiếm" class="header-input" />
           </div>
           <div class="header-bell">
-            <img src="./css/img/chuông.png" alt="" class="header-bell__number" />
+            <img src="./css/img/bell.png" alt="" class="header-bell__number" />
           </div>
           <div class="header-accout">
-            <img src="./css/img/beckham-10-1589364715-196-width2032height3047 3.png" alt="" class="header-accout__img" />
+            <a href="">
+              <img src="./css/img/beckham-10-1589364715-196-width2032height3047 3.png" alt="" class="header-accout__img" />
+            </a>
             <div class="header-accout__info">
               <div class="header-accout__info-info">
                 <h4 class="header-accout__info-name">Ciristinano Ronaldo</h4>
@@ -76,6 +80,160 @@
         </div>
         <div class="container-right">
           <h2 class="right-title">Chi tiết khóa học</h2>
+          <ul class="course">
+            <a href="#" class="course-iteam">
+              <img src="./css/img/general-information.png" alt="" class="course-iteam__img" />
+              <p class="course-iteam__text">Thông tin chung</p>
+            </a>
+            <a href="#" class="course-iteam">
+              <img src="./css/img/list-member.png" alt="" class="course-iteam__img" />
+              <p class="course-iteam__text">Ghi danh thành viên</p>
+            </a>
+            <a href="" class="course-iteam">
+              <img src="./css/img/theme-active.png" alt="" class="course-iteam__img" />
+              <p class="course-iteam__text">Chủ đề & Hoạt động</p>
+            </a>
+            <a href="" class="course-iteam">
+              <img src="./css/img/point-information.png" alt="" class="course-iteam__img" />
+              <p class="course-iteam__text">Thông tin điểm</p>
+            </a>
+            <a href="" class="course-iteam">
+              <img src="./css/img/attendance-information.png" alt="" class="course-iteam__img" />
+              <p class="course-iteam__text">Thông tin điểm danh</p>
+            </a>
+            <a href="" class=" course-iteam course-iteam__star ">
+              <img src="./css/img/tick-v.png" alt="" class="course-iteam__tick">
+              <img src="./css/img/star-blue.png" alt="" class="course-iteam__img "  />
+              <p class="course-iteam__text course-iteam__text-cours">Đánh giá khóa học</p>
+            </a>
+          </ul>
+          <div class="evaluate-link">
+            <div class="link-evaluate">
+              <p class="link-evaluate__title">Đánh giá khóa học</p>
+              <div href="" class="link-evaluate__wapper">
+                <input type="" placeholder="https://cocacolas..lipsum.com" class="link-evaluate__left" />
+                <div class="link-evaluate__inside">
+                  <img src="./css/img/evalution-logo.svg" alt="" class="link-evaluate__img" />
+                  <p class="link-text">copy link</p>
+                </div>
+              </div>
+            </div>
+            <div class="evaluate-QR">
+              <p class="evaluate-QR-title">QRcode đánh giá khóa học</p>
+              <img src="./css/img/QR.png" width="40px" height="40px" alt="" class="evaluate-QR-img" />
+            </div>
+          </div>
+          <h5 class="information-title">Thông tin đánh giá khóa học</h5>
+          <div class="teacher-container">
+            <div class="teacher-right">
+              <img src="./css/img/threeStart.svg" width="53px" height="30px" alt="" class="teacher-right__img">
+            </div>
+              <table class="teacher-table" >
+            <tr class="teacher-table__row">
+              <td class="teacher-table__head "></td>
+              <td class="teacher-table__head"> <b> Khóa học</b> </td>
+              <td  class="teacher-table__head ">GV: <b> Nguyễn Văn Tuyên </b></td>
+              <td class="teacher-table__head ">GV: <b> Nguyễn Văn Tuấn</b> </td>
+              <td class="teacher-table__head ">GV: <b> Nguyễn Phong Hồng Duy </b> </td>
+            </tr>
+            <tr class="teacher-table__row">
+              <td class=" teacher-table__data-nps "> <b> NPS </b></td>
+              <td class="teacher-table__data "> <b> 10.0</b></td>
+              <td class="teacher-table__data "> <b> 10.0</b></td>
+              <td class="teacher-table__data "> <b> 10.0</b></td>
+              <td class="teacher-table__data "> <b> 10.0</b></td>
+            </tr>
+           </table>
+            </ul>
+            <div class="teacher-left">
+            <div class="teacher-left__button">
+              <img src="./css/img/XLSX.png" alt="" class="teacher-left__img">
+              <a href="" class="teacher-right__text">Báo cáo chi tiết</a>
+            </div>
+          </div>
+          </div>
+          <div class="list">
+            <div class="list-header">
+              <h5 class="list-haeder__title">Danh sách các học viên chưa thực hiện đánh giá</h5>
+              <div class="list-haeder__right">
+                <p class="list-haeder__right-text">Hiển thị<b>  20</b> trên <b> 22</b> kết quả</p>
+                <img src="./css/img/turn-left.jpg" alt="" class="list-laeder__right-turnLeft">
+                <img src="./css/img/turn-right.jpg" alt="" class="list-laeder__right-turnRight">
+              </div>
+            </div>
+          </div>
+          <table class="list-table__container">
+            <div class="list-table__wapper">
+            <thead class="list-table__row-head">
+              <tr class="list-table__row-head">
+                <th class="list-table__head">Mã nhân viên</th>
+                <th class="list-table__head">Họ tên</th>
+                <th class="list-table__head">Email</th>
+                <th class="list-table__head">Số điện thoại</th>
+                <th class="list-table__head">Phòng ban bộ phận</th>
+                <th class="list-table__head">Trạng thái</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="list-table__row">
+                <td class="list-table__data">FT0003587</td>
+                <td class="list-table__data">Cristiano Ronaldo</td>
+                <td class="list-table__data">CristianoRonaldo@f88.co</td>
+                <td class="list-table__data">0979899100</td>
+                <td class="list-table__data">NBH0452.24 Thị Trấn Me</td>
+                <td class="list-table__data">Chưa đánh giá</td>
+              </tr>
+              <tr class="list-table__row">
+                <td class="list-table__data">FT0003587</td>
+                <td class="list-table__data">Cristiano Ronaldo</td>
+                <td class="list-table__data">CristianoRonaldo@f88.co</td>
+                <td class="list-table__data">0979899100</td>
+                <td class="list-table__data">NBH0452.24 Thị Trấn Me</td>
+                <td class="list-table__data">Chưa đánh giá</td>
+              </tr>
+              <tr class="list-table__row">
+                <td class="list-table__data">FT0003587</td>
+                <td class="list-table__data">Cristiano Ronaldo</td>
+                <td class="list-table__data">CristianoRonaldo@f88.co</td>
+                <td class="list-table__data">0979899100</td>
+                <td class="list-table__data">NBH0452.24 Thị Trấn Me</td>
+                <td class="list-table__data">Chưa đánh giá</td>
+              </tr>
+              <tr class="list-table__row">
+                <td class="list-table__data">FT0003587</td>
+                <td class="list-table__data">Cristiano Ronaldo</td>
+                <td class="list-table__data">CristianoRonaldo@f88.co</td>
+                <td class="list-table__data">0979899100</td>
+                <td class="list-table__data">NBH0452.24 Thị Trấn Me</td>
+                <td class="list-table__data">Chưa đánh giá</td>
+              </tr>
+              <tr class="list-table__row">
+                <td class="list-table__data">FT0003587</td>
+                <td class="list-table__data">Cristiano Ronaldo</td>
+                <td class="list-table__data">CristianoRonaldo@f88.co</td>
+                <td class="list-table__data">0979899100</td>
+                <td class="list-table__data">NBH0452.24 Thị Trấn Me</td>
+                <td class="list-table__data list-table__data-red">Chưa đánh giá</td>
+              </tr>
+              <tr class="list-table__row">
+                <td class="list-table__data">FT0003587</td>
+                <td class="list-table__data">Cristiano Ronaldo</td>
+                <td class="list-table__data">CristianoRonaldo@f88.co</td>
+                <td class="list-table__data">0979899100</td>
+                <td class="list-table__data">NBH0452.24 Thị Trấn Me</td>
+                <td class="list-table__data list-table__data-red">Chưa đánh giá</td>
+              </tr>
+              <tr class="list-table__row">
+                <td class="list-table__data">FT0003587</td>
+                <td class="list-table__data">Cristiano Ronaldo</td>
+                <td class="list-table__data">CristianoRonaldo@f88.co</td>
+                <td class="list-table__data">0979899100</td>
+                <td class="list-table__data">NBH0452.24 Thị Trấn Me</td>
+                <td class="list-table__data ls-tb">Chưa đánh giá</td>
+              </tr>
+            </tbody>
+            </div>
+          </table>
         </div>
       </div>
     </div>
